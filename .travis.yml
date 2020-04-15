@@ -29,4 +29,7 @@ install:
    - platformio update
 
 script:
+   # that lib is broken.. removing the unused web part fixes the build
+   - platformio lib install
+   - rm -rf .pio/libdeps/odroid_esp32/ODROID-GO_ID5688/src/web/
    - platformio run
