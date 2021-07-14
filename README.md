@@ -1,5 +1,7 @@
 # odroid-flames
 
+![build](https://github.com/particleflux/odroid-flames/actions/workflows/build.yml/badge.svg)
+
 That DOOM fire effect on the odroid-go.
 
 ![flames-gif](doom-flames.gif)
